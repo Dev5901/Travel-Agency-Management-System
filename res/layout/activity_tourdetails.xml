@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tourdetails"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="TOUR DETAILS"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/placee"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/border"
+        android:hint="Location"
+        android:textSize="60dp"
+        android:layout_marginTop="20dp"/>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Cost"
+            android:layout_marginLeft="10dp"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Period"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Cost"
+            android:textSize="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/timee"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:text="Period"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/itineary"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/gotopay"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_background"
+        android:text="Go To Payment"
+        android:onClick="payment"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+    </LinearLayout>
+</ScrollView>

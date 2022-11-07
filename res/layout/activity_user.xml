@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User">
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Tours"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:onClick="tour"
+        android:id="@+id/tour"></Button>
+    <Button
+        android:id="@+id/feedback"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/button_background"
+        android:text="Feedback"
+        android:onClick="feedback"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

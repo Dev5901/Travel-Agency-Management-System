@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/loc"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Name"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:textColor="#000"
+            android:gravity="center"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Name"
+            android:layout_weight="1"
+            android:id="@+id/name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            android:gravity="center"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Phone Number"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/phno"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/border"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Cost"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:textColor="#000"
+            android:gravity="center"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Cost"
+            android:layout_weight="1"
+            android:id="@+id/costt"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+</LinearLayout>
